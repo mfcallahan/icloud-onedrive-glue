@@ -1,5 +1,5 @@
 # icloud-onedrive-glue
-A Windows service to move photos uploaded to iCloud over to OneDrive
+A Windows service to sync photos uploaded to iCloud to OneDrive.
 
 ###
 
