@@ -6,7 +6,7 @@ IHost host = Host.CreateDefaultBuilder(args)
         IConfiguration configuration = hostContext.Configuration;
 
         services.Configure<AppSettings>(configuration.GetSection(nameof(AppSettings)));
-        services.AddHostedService<Worker>();
+        services.AddHostedService<WindowsBackgroundService>();
     })
     .Build();
 
